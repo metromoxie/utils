@@ -14,9 +14,8 @@ jslint-rhino-wrap.js is a script for running the wonderful JavaScript code
 quality tool JSLint on local files on the command line. This script is built to
 run under the solid Mozilla Rhino platform, so make sure to install that first
 before trying to use this script. The script also requires a local copy of
-JSLint. You can find the latest and greatest here:
-https://raw.github.com/douglascrockford/JSLint/master/jslint.js
-You run the script script by uttering the following at the command line: rhino
+JSLint (https://raw.github.com/douglascrockford/JSLint/master/jslint.js). You
+run the script script by uttering the following at the command line: rhino
 jslint_rhino_wrap.js jslint.js [options]... [files]... You may find it useful to
 write a script to specify a permanent path to your jslint.js file. Further
 options are specified in the comments at the top of th script.
